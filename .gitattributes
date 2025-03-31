@@ -1,0 +1,104 @@
+## Arquivos específicos do projeto
+/pubsubdb/src/main/resources/application.properties
+
+## Arquivos gerados pelo Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+## Diretórios de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+.factorypath
+
+## Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+## Arquivos de log
+*.log
+logs/
+
+## Arquivos do Spring Boot
+\!src/main/resources/application*.properties
+\!src/main/resources/application*.yml
+/src/main/resources/application-*.properties
+/src/main/resources/application-*.yml
+
+## Arquivos do Banco de Dados
+*.db
+*.sql
+*.h2.db
+
+## Arquivos do Docker
+docker-compose.yml
+docker-compose.override.yml
+/docker/
+\!docker-compose.yml
+
+## Arquivos do GCP
+*.json
+*.key
+gcp_credentials.json
+
+## Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+## Arquivos do Frontend (caso exista)
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Arquivos de compilação
+*.class
+*.war
+*.ear
+*.jar
+
+## Arquivos do Eclipse
+.metadata/
+tmp/
+
+## Arquivos do VS Code
+.vscode/
+
+## Arquivos do NetBeans
+nbproject/private/
+/nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+*.orig
+
+## Arquivos do Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+\!mvnw
+\!mvnw.cmd
